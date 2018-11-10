@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="aml.crimes.CrimeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TITLE"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_margin="6dp"
+        android:id="@+id/crime_TV_title"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+android:id="@+id/crime_ET"
+        android:hint="Enter a title for the crime"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DETAILS"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_margin="6dp"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_marginTop="4dp"
+        android:background="@android:color/darker_gray"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:id="@+id/date_BT"
+        android:textSize="12sp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:id="@+id/solved_CB"
+        android:layout_margin="6dp"
+        android:text="solved"/>
+</LinearLayout>
